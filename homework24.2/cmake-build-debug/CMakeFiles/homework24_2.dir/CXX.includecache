@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/skillbox/profession-c-plus-plus/homework24.2/main.cpp
+iostream
+-
+ctime
+-
+map
+-
+iomanip
+-
+string
+-
+

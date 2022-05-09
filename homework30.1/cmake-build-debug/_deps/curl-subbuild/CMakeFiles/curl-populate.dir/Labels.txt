@@ -1,0 +1,14 @@
+# Target labels
+ curl-populate
+# Source files and their labels
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test.rule
+C:/skillbox/profession-c-plus-plus/homework30.1/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update.rule

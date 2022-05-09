@@ -1,0 +1,21 @@
+# ninja log v5
+2	1661	6738023837529741	curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	82458cd61ba09521
+2	1661	6738023837529741	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-mkdir	82458cd61ba09521
+1710	27990	6738024102977788	curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	eb0f175ad724ac07
+1710	27990	6738024102977788	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-download	eb0f175ad724ac07
+27993	28334	6738024106571549	curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	5d768ebb13b95c33
+27993	28334	6738024106571549	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-update	5d768ebb13b95c33
+28334	28576	6738024108759062	curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	cc0df5cbb6c725f4
+28334	28576	6738024108759062	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-patch	cc0df5cbb6c725f4
+28576	28809	6738024111415269	curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	373052f015f9e2de
+28576	28809	6738024111415269	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-configure	373052f015f9e2de
+28809	28989	6738024113134053	curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	8b047580914f1227
+28809	28989	6738024113134053	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-build	8b047580914f1227
+28990	29987	6738024123233300	curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	e9efa5e70e125213
+28990	29987	6738024123233300	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-install	e9efa5e70e125213
+29987	30096	6738024124283864	curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	2ce11c991ecf8cd
+29987	30096	6738024124283864	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-test	2ce11c991ecf8cd
+30096	30266	6738024126002595	CMakeFiles/curl-populate-complete	3972102f6e93f577
+30096	30266	6738024126002595	curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	3972102f6e93f577
+30096	30266	6738024126002595	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/CMakeFiles/curl-populate-complete	3972102f6e93f577
+30096	30266	6738024126002595	C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-populate-stamp/curl-populate-done	3972102f6e93f577

@@ -1,0 +1,5 @@
+# ninja log v5
+57	2715	6734766021343619	src/CMakeFiles/Company.dir/main.cpp.obj	a7a269ea03d3d8e4
+92	2191	6734762242623612	src/CMakeFiles/Company.dir/boss.cpp.obj	7eadaf8f05aabad7
+111	2217	6734762242873579	src/CMakeFiles/Company.dir/manager.cpp.obj	1ebc3ad111229618
+2717	3333	6734766027523598	../bin/Company.exe	27d2cce9c7488b0f

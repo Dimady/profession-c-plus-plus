@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/cpu.h
+
+../include/disk.h
+
+../include/gpu.h
+
+../include/kbd.h
+
+../include/main.h
+
+../include/ram.h
+
+C:/skillbox/profession-c-plus-plus/homework25.2/src/main.cpp
+iostream
+-
+kbd.h
+C:/skillbox/profession-c-plus-plus/homework25.2/src/kbd.h
+gpu.h
+C:/skillbox/profession-c-plus-plus/homework25.2/src/gpu.h
+disk.h
+C:/skillbox/profession-c-plus-plus/homework25.2/src/disk.h
+cpu.h
+C:/skillbox/profession-c-plus-plus/homework25.2/src/cpu.h
+main.h
+C:/skillbox/profession-c-plus-plus/homework25.2/src/main.h
+
+C:/skillbox/profession-c-plus-plus/homework25.2/src/ram.cpp
+ram.h
+C:/skillbox/profession-c-plus-plus/homework25.2/src/ram.h
+main.h
+C:/skillbox/profession-c-plus-plus/homework25.2/src/main.h
+

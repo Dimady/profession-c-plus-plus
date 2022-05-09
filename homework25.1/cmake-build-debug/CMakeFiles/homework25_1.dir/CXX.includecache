@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/skillbox/profession-c-plus-plus/homework25.1/main.cpp
+iostream
+-
+struct.h
+C:/skillbox/profession-c-plus-plus/homework25.1/struct.h
+
+C:/skillbox/profession-c-plus-plus/homework25.1/struct.h
+

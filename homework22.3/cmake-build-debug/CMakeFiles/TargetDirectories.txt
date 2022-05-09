@@ -1,0 +1,3 @@
+C:/skillbox/profession-c-plus-plus/homework22.3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/skillbox/profession-c-plus-plus/homework22.3/cmake-build-debug/CMakeFiles/homework22_3.dir
+C:/skillbox/profession-c-plus-plus/homework22.3/cmake-build-debug/CMakeFiles/edit_cache.dir

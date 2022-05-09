@@ -1,0 +1,3 @@
+C:/skillbox/profession-c-plus-plus/homework27.2/cmake-build-debug/CMakeFiles/Shapes.dir
+C:/skillbox/profession-c-plus-plus/homework27.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/skillbox/profession-c-plus-plus/homework27.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

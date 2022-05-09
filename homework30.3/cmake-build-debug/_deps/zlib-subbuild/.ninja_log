@@ -1,0 +1,21 @@
+# ninja log v5
+1	374	6738029631790826	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	6fc15d7807ddebad
+1	374	6738029631790826	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-mkdir	6fc15d7807ddebad
+375	10930	6738029737415843	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	50ee13d0ce4084d2
+375	10930	6738029737415843	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-download	50ee13d0ce4084d2
+10932	11379	0	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	72c7a410be52da0a
+10932	11379	0	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-update	72c7a410be52da0a
+11379	11465	6738029742728317	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	22088d0d693019c1
+11379	11465	6738029742728317	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-patch	22088d0d693019c1
+11465	11547	6738029743509560	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	98ddf52cc76f5670
+11465	11547	6738029743509560	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-configure	98ddf52cc76f5670
+11547	11638	6738029744447067	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	d2d7718cca4629b3
+11547	11638	6738029744447067	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-build	d2d7718cca4629b3
+11638	11735	6738029745384562	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	d7f81efda11806a0
+11638	11735	6738029745384562	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-install	d7f81efda11806a0
+11735	11836	6738029746478372	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	c598897b77c8f514
+11735	11836	6738029746478372	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-test	c598897b77c8f514
+11836	11955	6738029747728316	CMakeFiles/zlib-populate-complete	cfb0ff0738e5e510
+11836	11955	6738029747728316	zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	cfb0ff0738e5e510
+11836	11955	6738029747728316	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/CMakeFiles/zlib-populate-complete	cfb0ff0738e5e510
+11836	11955	6738029747728316	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/zlib-subbuild/zlib-populate-prefix/src/zlib-populate-stamp/zlib-populate-done	cfb0ff0738e5e510

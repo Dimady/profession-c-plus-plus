@@ -1,0 +1,21 @@
+# ninja log v5
+20	29836	6738028108001155	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	2770942dc1406e61
+20	29836	6738028108001155	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-mkdir	2770942dc1406e61
+30195	130492	6738029117031367	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	46b091dd22824027
+30195	130492	6738029117031367	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-download	46b091dd22824027
+130497	135243	0	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	eda5a7c8a97efb39
+130497	135243	0	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-update	eda5a7c8a97efb39
+135243	137162	6738029184585291	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	17f663d7e6d11105
+135243	137162	6738029184585291	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-patch	17f663d7e6d11105
+137162	137362	6738029186950729	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	d27d33aca63d096e
+137162	137362	6738029186950729	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-configure	d27d33aca63d096e
+137363	137751	6738029190700687	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	fb184f6e2659af33
+137363	137751	6738029190700687	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-build	fb184f6e2659af33
+137752	137978	6738029193044449	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	4ca519afe1c4448b
+137752	137978	6738029193044449	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-install	4ca519afe1c4448b
+137979	138207	6738029195388194	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	3ac2bffb75820af4
+137979	138207	6738029195388194	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-test	3ac2bffb75820af4
+138208	139094	6738029204146895	CMakeFiles/cpr-populate-complete	d7b659285b843793
+138208	139094	6738029204146895	cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	d7b659285b843793
+138208	139094	6738029204146895	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/CMakeFiles/cpr-populate-complete	d7b659285b843793
+138208	139094	6738029204146895	C:/skillbox/profession-c-plus-plus/homework30.3/cmake-build-debug/_deps/cpr-subbuild/cpr-populate-prefix/src/cpr-populate-stamp/cpr-populate-done	d7b659285b843793

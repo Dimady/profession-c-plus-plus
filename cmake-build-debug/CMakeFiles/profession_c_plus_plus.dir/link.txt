@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\profession_c_plus_plus.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\profession_c_plus_plus.dir/objects.a @CMakeFiles\profession_c_plus_plus.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\profession_c_plus_plus.dir/objects.a -Wl,--no-whole-archive -o profession_c_plus_plus.exe -Wl,--out-implib,libprofession_c_plus_plus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\profession_c_plus_plus.dir\linklibs.rsp
