@@ -14,8 +14,8 @@ project(curl-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(curl-populate
                      "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/curl/curl/releases/download/curl-7_81_0/curl-7.81.0.tar.xz" "URL_HASH" "SHA256=a067b688d1645183febc31309ec1f3cdce9213d02136b6a6de3d50f69c95a7d3"
-                    SOURCE_DIR          "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-src"
-                    BINARY_DIR          "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build"
+                    SOURCE_DIR          "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-src"
+                    BINARY_DIR          "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

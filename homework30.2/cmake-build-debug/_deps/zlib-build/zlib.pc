@@ -1,4 +1,4 @@
-prefix=C:/Program Files (x86)/homework30_2
+prefix=C:/Program Files (x86)/HeaderGet
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 sharedlibdir=${libdir}

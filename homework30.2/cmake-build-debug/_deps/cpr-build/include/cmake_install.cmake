@@ -1,8 +1,8 @@
-# Install script for directory: C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-src/include
+# Install script for directory: C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-src/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/homework30_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/HeaderGet")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,14 +34,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-src/include/cpr")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-src/include/cpr")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-build/cpr_generated_includes/cpr")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-build/cpr_generated_includes/cpr")
 endif()
 

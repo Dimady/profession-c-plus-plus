@@ -1,8 +1,8 @@
-# Install script for directory: C:/skillbox/profession-c-plus-plus/homework30.2
+# Install script for directory: C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/homework30_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/HeaderGet")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-build/cmake_install.cmake")
+  include("C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/cpr-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

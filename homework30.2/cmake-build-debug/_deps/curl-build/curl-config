@@ -21,7 +21,7 @@
 #
 ###########################################################################
 
-prefix=C:/Program Files (x86)/homework30_2
+prefix=C:/Program Files (x86)/HeaderGet
 exec_prefix=${prefix}
 includedir=${prefix}/include
 cppflag_curl_staticlib=
@@ -76,7 +76,7 @@ while test $# -gt 0; do
         ;;
 
     --cc)
-        echo "C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe"
+        echo "C:/Program Files/JetBrains/CLion 2022.1/bin/mingw/bin/gcc.exe"
         ;;
 
     --prefix)
@@ -155,13 +155,13 @@ while test $# -gt 0; do
         ;;
 
     --libs)
-        if test "XC:/Program Files (x86)/homework30_2/lib" != "X/usr/lib" -a "XC:/Program Files (x86)/homework30_2/lib" != "X/usr/lib64"; then
-           CURLLIBDIR="-LC:/Program Files (x86)/homework30_2/lib "
+        if test "XC:/Program Files (x86)/HeaderGet/lib" != "X/usr/lib" -a "XC:/Program Files (x86)/HeaderGet/lib" != "X/usr/lib64"; then
+           CURLLIBDIR="-LC:/Program Files (x86)/HeaderGet/lib "
         else
            CURLLIBDIR=""
         fi
         if test "Xyes" = "Xno"; then
-          echo ${CURLLIBDIR}-lcurl  -lmingw32 -lgcc -lmoldname -lmingwex -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -ladvapi32 -lcrypt32
+          echo ${CURLLIBDIR}-lcurl  -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lwinmm -lws2_32 -ladvapi32 -lcrypt32
         else
           echo ${CURLLIBDIR}-lcurl
         fi
@@ -172,7 +172,7 @@ while test $# -gt 0; do
 
     --static-libs)
         if test "Xno" != "Xno" ; then
-          echo C:/Program Files (x86)/homework30_2/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lmoldname -lmingwex -lwinmm -lws2_32 -ladvapi32 -lcrypt32
+          echo C:/Program Files (x86)/HeaderGet/lib/libcurl.a   -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lmoldname -lmingwex -lkernel32 -lwinmm -lws2_32 -ladvapi32 -lcrypt32
         else
           echo "curl was built with static libraries disabled" >&2
           exit 1

@@ -6,8 +6,9 @@ using namespace std;
 string getHeader(string &str);
 
 int main() {
-    auto responce = cpr::Get(cpr::Url("http://httpbin.org/html")).text;
-    cout << getHeader(responce) << endl;
+    cpr::Response r = cpr::Get(cpr::Url("http://httpbin.org/html"),
+                               cpr::Header{{"accept", "text/html"}});
+    cout << getHeader(r.text) << endl;
     return 0;
 }
 

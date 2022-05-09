@@ -19,16 +19,16 @@
 # KIND, either express or implied.
 #
 ###########################################################################
-if(NOT EXISTS "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build/install_manifest.txt")
+if(NOT EXISTS "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build/install_manifest.txt")
 endif()
 
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/homework30_2")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/HeaderGet")
 endif()
 message(${CMAKE_INSTALL_PREFIX})
 
-file(READ "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build/install_manifest.txt" files)
+file(READ "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

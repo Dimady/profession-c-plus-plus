@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz" ABSOLUTE)
-get_filename_component(directory "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz" ABSOLUTE)
+get_filename_component(directory "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-src" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'")
+       file='C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'")
 
-  file("SHA256" "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz" actual_value)
+  file("SHA256" "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "a067b688d1645183febc31309ec1f3cdce9213d02136b6a6de3d50f69c95a7d3")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz
+    C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz
   does not match expected value
     expected: 'a067b688d1645183febc31309ec1f3cdce9213d02136b6a6de3d50f69c95a7d3'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz" STREQUAL "")
+if("C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/curl/curl/releases/download/curl-7_81_0/curl-7.81.0.tar.x
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
+if(EXISTS "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'
+  file='C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'
   SHA256='a067b688d1645183febc31309ec1f3cdce9213d02136b6a6de3d50f69c95a7d3'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
+      file(REMOVE "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'
+  file='C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
+    file(REMOVE "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'
+   dst='C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -126,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz"
+        "${url}" "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz"
         SHOW_PROGRESS
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -143,7 +143,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "C:/skillbox/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
+          file(REMOVE "C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework30.2/cmake-build-debug/_deps/curl-subbuild/curl-populate-prefix/src/curl-7.81.0.tar.xz")
         else()
           message(STATUS "Downloading... done")
           return()
