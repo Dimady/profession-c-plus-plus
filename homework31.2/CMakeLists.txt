@@ -1,11 +1,6 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.22)
+project(homework31_1)
 
-project(Graph LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
 
-set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-set(HEADERS igraph.h listgraph.h matrixgraph.h)
-set(SRC main.cpp listgraph.cpp matrixgraph.cpp)
-
-add_executable(Graph ${SRC} ${HEADERS})
+add_executable(homework31_2 main.cpp)
