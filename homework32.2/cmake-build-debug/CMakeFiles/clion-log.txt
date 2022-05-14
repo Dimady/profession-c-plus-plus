@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2022.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\Dmitriy\Downloads\Github\Projects\profession-c-plus-plus\homework32.2 -B C:\Users\Dmitriy\Downloads\Github\Projects\profession-c-plus-plus\homework32.2\cmake-build-debug
+-- Using the single-header code from C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework32.2/nlohmann_json/single_include/
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework32.2/cmake-build-debug
