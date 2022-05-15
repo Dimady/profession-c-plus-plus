@@ -15,7 +15,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4fe6c2c-8191-4776-9082-9097ef1973d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32_3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework32.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +98,8 @@
       <workItem from="1652506739337" duration="702000" />
       <workItem from="1652507516101" duration="2628000" />
       <workItem from="1652511334010" duration="569000" />
-      <workItem from="1652513005577" duration="30000" />
+      <workItem from="1652513005577" duration="1171000" />
+      <workItem from="1652596935054" duration="146000" />
     </task>
     <servers />
   </component>
