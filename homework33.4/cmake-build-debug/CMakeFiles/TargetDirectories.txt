@@ -1,0 +1,3 @@
+C:/Users/Dmitriy/CLionProjects/profession-c-plus-plus/homework33.4/cmake-build-debug/CMakeFiles/homework33_4.dir
+C:/Users/Dmitriy/CLionProjects/profession-c-plus-plus/homework33.4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Dmitriy/CLionProjects/profession-c-plus-plus/homework33.4/cmake-build-debug/CMakeFiles/rebuild_cache.dir

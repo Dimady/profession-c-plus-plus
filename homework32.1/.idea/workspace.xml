@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="homework32_1" targetName="homework32_1" />
@@ -15,12 +18,206 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9853a403-c630-482c-8b25-8cd02ff71d1d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework32.2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../homework32_3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/film.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/.idea/homework32_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/bin/protoc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/business.pb.cc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/business.pb.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/business.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework32.3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/.idea/homework33.1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c98c254dd18e84ed9bc4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-24c4337a3fc40d7eca13.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f95ea08311f4bcbf6a88.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-22T19-09-16-0674.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/reply/target-homework33_1-Debug-68d4fcf86f83b79c4229.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-c751d4b9bb09828cc933.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/homework33_1.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/cmake-build-debug/homework33_1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.1/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/.idea/homework33.2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c551d9ae4b3e7bc4604f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d8cfa68ecd10ec785cf7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ca0386478265b4bab6c8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-22T21-17-45-0826.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/reply/target-homework33_2-Debug-01b550c500bed4229954.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-c751d4b9bb09828cc933.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/homework33_2.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/cmake-build-debug/homework33_2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/.idea/homework33.3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/reply/cache-v2-fa03993fb7c161e651d1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c8f623928bcdcb85b8bb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-eea1f729879dbe444ae6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-22T21-48-25-0235.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/reply/target-homework33_3-Debug-a63b59035c61a48becd1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-c751d4b9bb09828cc933.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/homework33_3.dir/main.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/cmake-build-debug/homework33_3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.3/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/.idea/homework33.4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/reply/cache-v2-c5435adf0beb4315e298.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d0e6068a701c3a32ff48.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-5e5020bad9cd2d0e6bea.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-22T21-58-01-0200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/reply/target-homework33_4-Debug-b2c941d8ebc567829eff.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-c751d4b9bb09828cc933.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../homework33.4/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework32.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../homework32.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../homework32.2/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../homework32.2/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6eff163297b334609027.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1f2ecce84654d0d430a5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-38c11d724f3823c441d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-homework32_1-Debug-5921f719b0f0286278de.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/.idea/homework32_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/bin/protoc.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/business.pb.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/business.pb.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/business.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../homework32_3/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,33 +247,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;cmake.loaded.for.project&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dmitriy/Downloads/Github/Projects/profession-c-plus-plus/homework32_3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.advertisement.text.has.clang-format": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "cmake.loaded.for.project": "true",
+    "last_opened_file_path": "C:/Users/Dmitriy/CLionProjects/profession-c-plus-plus/homework32.1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Dmitriy\Downloads\Github\Projects\profession-c-plus-plus\homework32.1" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
     <configuration name="homework32_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework32_1" TARGET_NAME="homework32_1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework32_1" RUN_TARGET_NAME="homework32_1">
@@ -105,6 +302,7 @@
       <workItem from="1652457305509" duration="2581000" />
       <workItem from="1652469788988" duration="1013000" />
       <workItem from="1652596643661" duration="340000" />
+      <workItem from="1653245964132" duration="2832000" />
     </task>
     <servers />
   </component>
