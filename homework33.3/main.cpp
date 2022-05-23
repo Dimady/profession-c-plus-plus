@@ -1,7 +1,6 @@
 #include <iostream>
 #include <vector>
 
-
 template<typename T1, typename T2>
 class Registr {
     std::vector<std::pair<T1, T2>> vp;
@@ -21,17 +20,9 @@ void Registr<T1, T2>::add(T1& key, T2& val) {
 
 template<typename T1, typename T2>
 void Registr<T1, T2>::remove(T1& key) {
-    bool find = false;
-    for (int i = 0; i < vp.size(); ++i) {
-        if (vp[i].first == key) {
-            vp.erase(vp.begin() + i);
-            std::cout << "Pair deleted";
-            find = true;
-        }
-    }
-    if (!find) {
-        std::cout << "Not found key: " << key;
-    }
+    vp.erase(std::remove_if(vp.begin(), vp.end(), [key](const auto &v) {
+        return v.first == key;
+    }), vp.end());
 }
 
 template<typename T1, typename T2>
