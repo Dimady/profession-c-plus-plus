@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
 
+
 template<typename T1, typename T2>
 class Registr {
-    std::vector<T1> keys;
-    std::vector<T2> values;
+    std::vector<std::pair<T1, T2>> vp;
 public:
     ~Registr() = default;
     void add(T1& key, T2& val);
@@ -15,19 +15,17 @@ public:
 
 template<typename T1, typename T2>
 void Registr<T1, T2>::add(T1& key, T2& val) {
-    keys.push_back(key);
-    values.push_back(val);
+    vp.push_back(make_pair(key, val));
+    std::cout << "Pair added";
 }
 
 template<typename T1, typename T2>
 void Registr<T1, T2>::remove(T1& key) {
     bool find = false;
-    for (int i = 0, j = 0; i < keys.size() || j < values.size(); ++i, ++j) {
-        if (keys[i] == key) {
-            keys.erase(keys.begin() + i);
-            values.erase(values.begin() + j);
-            --i;
-            --j;
+    for (int i = 0; i < vp.size(); ++i) {
+        if (vp[i].first == key) {
+            vp.erase(vp.begin() + i);
+            std::cout << "Pair deleted";
             find = true;
         }
     }
@@ -38,31 +36,25 @@ void Registr<T1, T2>::remove(T1& key) {
 
 template<typename T1, typename T2>
 void Registr<T1, T2>::print() const {
-    auto itK = keys.begin();
-    auto itV = values.begin();
-    for (itK, itV; itK != keys.end() || itV != values.end(); ++itK, ++itV) {
-        std::cout << *itK << " " << *itV << std::endl;
-    }
+    for (int i = 0; i < vp.size(); i++)
+        std::cout << vp[i].first << " " << vp[i].second << " " << std::endl;
 }
 
 template<typename T1, typename T2>
 std::vector<T2> Registr<T1, T2>::find(T1& key) {
-    std::vector<T2> valRasult;
-    auto itK = keys.begin();
-    auto itV = values.begin();
+    std::vector<T2> valResult;
     bool find = false;
-    for (itK, itV; itK != keys.end() || itV != values.end(); ++itK, ++itV) {
-        if (*itK == key) {
-            valRasult.push_back(*itV);
+    for (int i = 0; i < vp.size(); ++i) {
+        if (vp[i].first == key) {
+            valResult.push_back(vp[i].second);
             find = true;
         }
     }
     if (!find) {
         std::cout << "Not found key: " << key;
     }
-    return valRasult;
+    return valResult;
 }
-
 
 int main() {
     std::string ch;
