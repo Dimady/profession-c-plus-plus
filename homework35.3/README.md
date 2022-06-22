@@ -11,6 +11,7 @@
 
 for(auto& p: fs::recursive_directory_iterator("D:\\dir1"))
 std::cout << p.path() << '\n';
+
 выведет полные пути ко всем файлам и подкаталогам в директории D:\dir1. Вызов p.path() возвращает объект типа std::filesystem::path, который позволяет:
 
 Определить, файл это или каталог при помощи метода is_regular_file().

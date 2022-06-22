@@ -40,6 +40,7 @@ target_link_libraries(MySkillboxApp
     endif ()
 
 Что оценивается
+
 Успешная установка и настройка IDE.
 
 Как отправить задание на проверку
