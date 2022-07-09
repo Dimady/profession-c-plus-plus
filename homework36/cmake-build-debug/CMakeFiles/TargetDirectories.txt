@@ -1,0 +1,5 @@
+C:/Users/РКО/CLionProjects/profession-c-plus-plus/homework36/cmake-build-debug/CMakeFiles/homework36.dir
+C:/Users/РКО/CLionProjects/profession-c-plus-plus/homework36/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/РКО/CLionProjects/profession-c-plus-plus/homework36/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/РКО/CLionProjects/profession-c-plus-plus/homework36/cmake-build-debug/CMakeFiles/homework36_autogen_timestamp_deps.dir
+C:/Users/РКО/CLionProjects/profession-c-plus-plus/homework36/cmake-build-debug/CMakeFiles/homework36_autogen.dir
